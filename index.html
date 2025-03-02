@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://www.bookhavenbooks.com/cdn/shop/files/Book_Haven_BooksLOGO.png?height=628&pad_color=fff&v=1680195963&width=1200" alt="Book Haven Logo" class="logo">
+        </div>
+        <h1>Welcome to Book Haven</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Books</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <main>
+        <section>
+            <h2>Discover Your Next Favorite Book</h2>
+            <p>&nbsp;</p>
+            <p>Explore our collection of books and enjoy a seamless shopping experience.</p>
+            <a href="gallery.html" class="btn">Browse Books</a>
+            <p>&nbsp;</p>
+        </section>
+
+        <!-- Featured Books Section -->
+        <section class="book-preview">
+            <h2>Featured Books</h2>
+            <div class="book-lists">
+                <div class="book">
+                    <img src="https://m.media-amazon.com/images/I/61OTNorhqVS._AC_UF894,1000_QL80_.jpg" alt="Book 1">
+                    <h3>The Great Gatsby</h3>
+                    <p>$10.99</p>
+                    <button onclick="addToCart('The Great Gatsby', 10.99)">Add to Cart</button>
+                </div>
+
+                <div class="book">
+                    <img src="https://m.media-amazon.com/images/I/81qZ5kGMQ1L._AC_UF1000,1000_QL80_.jpg" alt="Book 2">
+                    <h3>1984</h3>
+                    <p>$12.99</p>
+                    <button onclick="addToCart('1984', 12.99)">Add to Cart</button>
+                </div>
+
+                <div class="book">
+                    <img src="https://m.media-amazon.com/images/I/81aY1lxk+9L._AC_UF1000,1000_QL80_.jpg" alt="Book 3">
+                    <h3>To Kill a Mockingbird</h3>
+                    <p>$9.99</p>
+                    <button onclick="addToCart('To Kill a Mockingbird', 9.99)">Add to Cart</button>
+                </div>
+
+                <div class="book">
+                    <img src="https://m.media-amazon.com/images/I/812wzoJvRLL._AC_UF1000,1000_QL80_.jpg" alt="Book 4">
+                    <h3>Pride and Prejudice</h3>
+                    <p>$8.99</p>
+                    <button onclick="addToCart('Pride and Prejudice', 8.99)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Book Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
